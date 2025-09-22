@@ -40,18 +40,18 @@ This project is a simple TypeScript exercise that demonstrates how to define str
 ```
  npx tsc --init
 ```
-6. Create a new `main.ts` file and write your logic inside it.
-7. Gompile `main.ts` to generate `main.js` file:
+5. Create a new `main.ts` file and write your logic inside it.
+6. Сompile `main.ts` to generate `main.js` file:
 ```
  npx tsc main.ts
 ```
-9. Compile TypeScript to JavaScript:
+7. Compile TypeScript to JavaScript:
 ```
  npx tsc
 ```
-11. Link the compiled script in `index.html`:
+8. Link the compiled script in `index.html`:
 ```<script src="main.js" type="module"></script>```
-13. Open `index.html` in your browser to see the output results
+9. Open `index.html` in your browser to see the output results
 
 ##  Output Link
 
