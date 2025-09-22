@@ -36,11 +36,27 @@ This project is a simple TypeScript exercise that demonstrates how to define str
 ```
  npm install typescript --save-dev
 ```
-4. Create TypeScript configuration file:
+3. Create TypeScript configuration file:
 ```
  npx tsc --init
 ```
-5. Create a new `main.ts` file and write your logic inside it.
+4.	Generates a `tsconfig.json` file to configure the TypeScript compiler. Example configuration:
+```
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
+```
+5. Create a new `main.ts` file and write your logic inside.
+```
+ main.ts
+```
 6. Сompile `main.ts` to generate `main.js` file:
 ```
  npx tsc main.ts
@@ -49,9 +65,14 @@ This project is a simple TypeScript exercise that demonstrates how to define str
 ```
  npx tsc
 ```
-8. Link the compiled script in `index.html`:
-```<script src="main.js" type="module"></script>```
-9. Open `index.html` in your browser to see the output results
+8. Create a new `index.html` file and link the compiled script:
+```
+index.html
+```
+```
+<script src="main.js" type="module"></script>
+```
+9. Open `index.html` in your browser using Live Server to see the output results
 
 ##  Output Link
 
